@@ -73,7 +73,7 @@
       $('#map-canvas').html('')
                       .append(flowerInfo[id].thisinfo)
                       .addClass('canvas-alive')
-                      .append('<div class="next-button" data-which="'+[id]+'"><img src="imgs/next-button.png"></div>');
+                      // .append('<div class="next-button" data-which="'+[id]+'"><img src="imgs/next-button.png"></div>');
       $('.map-title').html('')
                     .append(flowerInfo[id].flower);
       $('.map-button-wrapper').find('img').removeClass('active-map-button');
